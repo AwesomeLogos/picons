@@ -176,7 +176,7 @@ if [[ -f $location/build-input/tvheadend.serverconf ]]; then
             rx_buf=$(curl -s $url'/api/channel/grid?start='$channel'&limit=1' )
 
             # extracting service reference and skip the rest if nothing usable found
-            serviceref=$(echo $rx_buf | grep -o '1_0_.*_.*_.*_.*_.*_0_0_0')
+            serviceref=$(echo $rx_buf |  jq -r '.entries[].icon'  | grep -o '1_0_.*_.*_.*_.*_.*_0_0_0')
 
             if [[ ! -n $serviceref ]]; then
                 continue
