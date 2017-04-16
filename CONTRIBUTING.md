@@ -2,7 +2,7 @@
 
 When submitting an issue, make sure you follow these rules:
 
-- Entries to `srp-index` or `snp-index`, put them inside code blocks by using **TRIPLE** backticks ([READ THIS](https://guides.github.com/features/mastering-markdown)) or if they are really big, use a [gist](https://gist.github.com/).
+- Put entries to `srp-index` or `snp-index` inside fenced code blocks. You can create fenced code blocks by placing a new line with three backticks ` ``` ` before and after the code block. ([READ THIS GUIDE](https://help.github.com/articles/creating-and-highlighting-code-blocks/))
 - Logos should be inside an archive, correctly named (see below). Share the link.
 
 If you can't be bothered to read this, we won't bother reading your issue. Also, if a channel is gone, we don't really care if it went bankrupt, changed owner, got rebranded or whatever other valid reason. We only care about what references should be added to srp-index and snp-index.
