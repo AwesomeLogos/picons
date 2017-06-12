@@ -1,3 +1,7 @@
+10_0_32_0=dobbittv
+1_0_32_0=tvlimburg
+2_0_32_0=atv-brasweslas
+3_0_32_0=tvoost
 10D6_2B_F020_FFFF0000=4music
 EDB_26_F020_FFFF0000=4sevenhd
 581_E_F020_FFFF0000=adultchannel
@@ -7983,7 +7987,7 @@ D749_81B_2_11A0000=clublandtv
 6FF2_42A_1_C00000=nickelodeon
 6FF3_42A_1_C00000=mtvrocks
 6FF4_42A_1_C00000=nickelodeon
-6FF5_42A_1_C00000=mtvbase-vephauucha
+6FF5_42A_1_C00000=mtvbase
 6FF7_42A_1_C00000=gameone
 6FF8_42A_1_C00000=mtvhits
 6FFA_42A_1_C00000=vh1
