@@ -22,26 +22,20 @@ These are entries from Enigma2 service reference linking to the logos in this re
 
 __snp-index:__
 
-- These are modified name entries from Enigma2 service names linking to the logos in this repository. Modification to names listed below.
+These are modified name entries from Enigma2 service names linking to the logos in this repository. Modification to names listed below.
 
-- lowercase only
-- letters `a to z` and numbers `0 to 9` only apart, from following exceptions
-- replace `&` with `and`
-- replace `+` with `plus`
-- replace `*` with `star`
-- spaces or other characters skipped
+lowercase only
+letters `a to z` and numbers `0 to 9` only apart, from following exceptions
+replace `&` with `and`
+replace `+` with `plus`
+replace `*` with `star`
+spaces or other characters skipped
 
 - Example names
-- `5*` will use `5star`
-- `*` replaced with `star`
- 
-- `Sony Chnl +1` will use `sonychnlplus1`
-- All lower case, space is skipped, `+` replaced with `plus`
- 
-- `BT Sport//ESPN` will use `btsportespn`
-- All lower case, space is skipped, `/` skipped as it is not a-z, 0-9 or the three accepted/replaced characters.
-
-- You can use both the service reference and SNP name entries. Enigma2 gives priority to the service reference over teh SNP name. This is required when different services have the same SNP name. For example, ITV on 28.2E and also iTV on 13E. STV 2 on 28.2 and STV2 on 23.5
+`5*` will use `5star`.`*` replaced with `star`
+`Sony Chnl +1` will use `sonychnlplus1`. All lower case, space is skipped, `+` replaced with `plus`
+`BT Sport//ESPN` will use `btsportespn`. All lower case, space is skipped, `/` skipped as it is not a-z, 0-9 or the three accepted/replaced characters.
+You can use both the service reference and SNP name entries. Enigma2 gives priority to the service reference over teh SNP name. This is required when different services have the same SNP name. For example, ITV on 28.2E and also iTV on 13E. STV 2 on 28.2 and STV2 on 23.5
 
 __Logo:__
 
