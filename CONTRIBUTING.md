@@ -15,27 +15,31 @@ At the end of any issue you should place the following text `donkey monkey got i
 
 __srp-index:__
 
-These are entries from Enigma2 service reference linking to the logos in this repository.
+Contains partial Enigma2 service references, establishing a link between the actual logos in this repository.
 
 - UPPERCASE
 - Only the part `296_5_85_C00000` is used, the parts `1_0_1_` and `_0_0_0` must be removed.
 
 __snp-index:__
 
-These are modified name entries from Enigma2 service names linking to the logos in this repository. Modification to names listed below.
+Contains simplified channel names according an OpenVIX implementation, called SNP, establishing a link between the actual logos in this repository.
 
-lowercase only
-letters `a to z` and numbers `0 to 9` only apart from following exceptions:-
-replace `&` with `and`,
-replace `+` with `plus`,
-replace `*` with `star`,
-spaces and other characters are skipped.
+SNP names are constructed by the following rules:
 
-Example names:
-`5*` will use `5star`, `*` replaced with `star`.
-`Sony Chnl +1` will use `sonychnlplus1`, all lower case, space is skipped, `+` replaced with `plus`.
-`BT Sport//ESPN` will use `btsportespn`, all lower case, space is skipped, `/` skipped as it is not a-z, 0-9 or the three accepted/replaced characters.
-You can use both the service reference and SNP name entries. Enigma2 gives priority to the service reference over the SNP name. This is required when different services have the same SNP name. For example, ITV on 28.2E and iTV on 13E. STV 2 on 28.2 and STV2 on 23.5.
+- lowercase
+- letters `a to z`
+- numbers `0 to 9`
+- replace `&` with `and`
+- replace `+` with `plus`
+- replace `*` with `star`
+
+This obviously means that spaces and other characters are not allowed.
+
+Examples:
+
+- `5*` => `5star`
+- `Sony Chnl +1` => `sonychnlplus1`
+- `BT Sport//ESPN` => `btsportespn`
 
 __Logo:__
 
@@ -54,13 +58,9 @@ __Logo:__
 Explanation of logo types:
 ```
 default=standard logo as used by the tv station, looks good on background intended by tv station
-
 light=modified default logo that makes darker parts lighter, looks good on darker backgrounds
-
 dark=modified default logo that makes lighter parts darker, looks good on lighter backgrounds
-
 white=fully white logo, no colors allowed (indexed 1-bit, black/white), looks good on dark backgrounds
-
 black=fully black logo, no colors allowed (indexed 1-bit, black/white), looks good on light backgrounds
 ```
 
