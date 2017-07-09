@@ -13,17 +13,42 @@ At the end of any issue you should place the following text `donkey monkey got i
 
 # NAMING
 
-__Serviceref:__
+__srp-index:__
+
+These are entries from Enigma2 service reference linking to the logos in this repository
 
 - UPPERCASE
 - Only the part `296_5_85_C00000` is used, the parts `1_0_1_` and `_0_0_0` must be removed.
+
+__snp-index:__
+
+- These are modified name entries from Enigma2 service names linking to the logos in this repository. Modification to names listed below.
+
+- lowercase only
+- letters `a to z` and numbers `0 to 9` only apart, from following exceptions
+- replace `&` with `and`
+- replace `+` with `plus`
+- replace `*` with `star`
+- spaces or other characters skipped
+
+- Example names
+- `5*` will use `5star`
+- `*` replaced with `star`
+ 
+- `Sony Chnl +1` will use `sonychnlplus1`
+- All lower case, space is skipped, `+` replaced with `plus`
+ 
+- `BT Sport//ESPN` will use `btsportespn`
+- All lower case, space is skipped, `/` skipped as it is not a-z, 0-9 or the three accepted/replaced characters.
+
+- You can use both the service reference and SNP name entries. Enigma2 gives priority to the service reference over teh SNP name. This is required when different services have the same SNP name. For example, ITV on 28.2E and also iTV on 13E. STV 2 on 28.2 and STV2 on 23.5
 
 __Logo:__
 
 - LOWERCASE
 - NO spaces, fancy symbols or `.-+_*`, except for the exceptions below.
 - Time sharing channels are seperated by `_`.
-- If the logo name you wish to use already exists, add a unique identifier like `-trechuhipe`, this is a pronounceable random 10 character string generated using [this](http://www.generate-password.com) password generator. Grouping togheter logos using the same unique identifier is possible.
+- If the logo name you wish to use already exists, add a unique identifier like `-trechuhipe`, this is a pronounceable random 10 character string generated using [this](http://www.generate-password.com) password generator. Grouping logos together using the same unique identifier is possible.
 - Filetype `svg` is the way to go, otherwise `png`.
 - The resolution doesn't matter for `svg`, for `png` try to get it > 800px.
 - When submitting `svg` files, make sure to convert `text` to `paths`.
@@ -35,9 +60,13 @@ __Logo:__
 Explanation of logo types:
 ```
 default=standard logo as used by the tv station, looks good on background intended by tv station
+
 light=modified default logo that makes darker parts lighter, looks good on darker backgrounds
+
 dark=modified default logo that makes lighter parts darker, looks good on lighter backgrounds
+
 white=fully white logo, no colors allowed (indexed 1-bit, black/white), looks good on dark backgrounds
+
 black=fully black logo, no colors allowed (indexed 1-bit, black/white), looks good on light backgrounds
 ```
 
