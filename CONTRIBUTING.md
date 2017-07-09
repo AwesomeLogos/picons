@@ -31,11 +31,11 @@ replace `+` with `plus`
 replace `*` with `star`
 spaces or other characters skipped
 
-- Example names
-`5*` will use `5star`.`*` replaced with `star`
-`Sony Chnl +1` will use `sonychnlplus1`. All lower case, space is skipped, `+` replaced with `plus`
+Example names
+`5*` will use `5star`.`*` replaced with `star`.
+`Sony Chnl +1` will use `sonychnlplus1`. All lower case, space is skipped, `+` replaced with `plus`.
 `BT Sport//ESPN` will use `btsportespn`. All lower case, space is skipped, `/` skipped as it is not a-z, 0-9 or the three accepted/replaced characters.
-You can use both the service reference and SNP name entries. Enigma2 gives priority to the service reference over teh SNP name. This is required when different services have the same SNP name. For example, ITV on 28.2E and also iTV on 13E. STV 2 on 28.2 and STV2 on 23.5
+You can use both the service reference and SNP name entries. Enigma2 gives priority to the service reference over the SNP name. This is required when different services have the same SNP name. For example, ITV on 28.2E and also iTV on 13E. STV 2 on 28.2 and STV2 on 23.5
 
 __Logo:__
 
