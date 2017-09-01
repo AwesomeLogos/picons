@@ -11,7 +11,7 @@ When using [Bash on Ubuntu on Windows](https://msdn.microsoft.com/commandline/ws
 Download the repository by using one of the following commands:
 ```
 # Ubuntu, Bash on Ubuntu on Windows
-sudo apt-get install git binutils pngquant imagemagick librsvg2-bin
+sudo apt-get install git binutils pngquant imagemagick librsvg2-bin jq
 
 # Ubuntu
 git clone https://github.com/picons/picons-source.git ~/picons-source
