@@ -1,23 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="131" width="600" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
- <defs></defs>
- <metadata>
-  <rdf:RDF>
-   <cc:Work rdf:about="">
-    <dc:format>image/svg+xml</dc:format>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:title/>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <g fill-rule="nonzero" transform="translate(-113.18233,-208.88866)">
-  <path fill="#000" d="m154.6,245.28-14.979,0,0,21.76,14.979,0c7.2619,0,11.487-5.2883,11.487-10.88,0-5.5919-4.2256-10.88-11.487-10.88m13.006,83.929-19.053-40.08-8.9319,0,0,40.08-26.441,0,0-107.66,42.635,0c23.886,0,36.74,16.928,36.74,34.614,0,14.676-9.0837,23.886-17.535,28.137l23.279,44.912h-30.692z"/>
-  <path fill="#000" d="m256.89,245.13,0,84.081-26.467,0,0-84.081-26.467,0,0-23.582,79.4,0,0,23.582-26.467,0z"/>
-  <path fill="#000" d="m378.37,305.62-53.136,0,0-84.081-26.467,0,0,107.66,71.784,0,7.8186-23.582z"/>
-  <path fill="#FD0" d="m713.18,208.89-39.523,0-43.369,130.99,39.498,0,43.394-130.99z"/>
-  <path fill="#FD0" d="m634.17,208.89-26.34,0-43.394,130.99,26.34,0,43.394-130.99z"/>
-  <path fill="#FD0" d="m555.16,208.89-13.183,0-43.394,130.99,13.183,0,43.394-130.99z"/>
-  <path fill="#000" d="m419.58,339.87,26.34,0,39.219-118.34-79.147,0-8.2234,25.227,52.655,0-30.844,93.114z"/>
+<svg width="600" height="122.25" version="1.1" viewBox="0 0 600 122.24616" xmlns="http://www.w3.org/2000/svg">
+ <g fill="#ffc61e">
+  <g transform="matrix(1.0009 0 0 1.0009 0 -70.281)" stroke-width="1.1599">
+   <path d="m0 110.86v81.299h21.342v-82.282h59.905v-19.355h-60.983c-20.264 0-20.264 20.338-20.264 20.338z"/>
+   <path d="m204.23 172.81v-82.293h-21.374v81.299s0 20.338 20.317 20.338h60.983v-19.344z"/>
+   <path d="m112.79 70.219h-21.374v101.6c0 20.338 20.045 20.338 20.045 20.338h61.16v-19.344h-59.831v-62.938h59.831v-19.355h-59.831z"/>
+  </g>
+  <path d="m294.58 0.053052-11.242 24.668h56.406l-44.444 97.524h28.346l55.686-122.19h-84.752z" stroke-width="1.2314" style="font-variation-settings:normal"/>
+  <rect transform="matrix(1 0 .41469 -.90996 0 0)" x="560.97" y="-134.34" width="39.058" height="134.28" stroke-width="1.5153" style="font-variation-settings:normal"/>
+  <rect transform="matrix(1 0 .41469 -.90996 0 0)" x="496.02" y="-134.34" width="26.167" height="134.28" stroke-width="1.2403" style="font-variation-settings:normal"/>
+  <rect transform="matrix(1 0 .41469 -.90996 0 0)" x="430.97" y="-134.34" width="13.076" height="134.28" stroke-width=".87673" style="font-variation-settings:normal"/>
  </g>
 </svg>
