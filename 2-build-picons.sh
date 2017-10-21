@@ -24,7 +24,7 @@ fi
 ########################################################
 ## Search for required commands and exit if not found ##
 ########################################################
-commands=( tar sed grep tr column cat sort find mkdir rm cp mv ln readlink )
+commands=( tar sed grep tr cat sort find mkdir rm cp mv ln readlink )
 for i in ${commands[@]}; do
     if ! which $i &> /dev/null; then
         missingcommands="$i $missingcommands"
