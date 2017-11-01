@@ -51,6 +51,7 @@ __Logo:__
 - The resolution doesn't matter for `svg`, for `png` try to get it > 800px.
 - When submitting `svg` files, make sure to convert `text` to `paths`.
 - It's not allowed for `svg` files to contain base64 encoded images.
+- Try to make `svg` files rsvg compatible, they definately need to open in Inkscape, so no Adobe Illustrator only compatibility.
 - If it's possible to easily trace your png with Inkscape, only the `svg` is allowed. In most cases this is possible.
 - Quality should be as high as possible.
 - Background should be transparent.
