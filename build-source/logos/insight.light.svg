@@ -1,0 +1,49 @@
+<svg width="200mm" height="209.57mm" version="1.1" viewBox="0 0 200 209.57" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="XMLID_8_" x1="269.41" x2="269.41" y1="151.32" y2="92.323" gradientTransform="matrix(.49588 0 0 .49588 -261.52 -68.358)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#2E2E2E" offset=".0056"/>
+   <stop offset="1"/>
+  </linearGradient>
+  <linearGradient id="XMLID_6_-2" x1="262.8" x2="262.8" y1=".3418" y2="309.33" gradientTransform="matrix(.49588 0 0 .49588 -261.52 -68.358)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#E6E6E6" offset="0"/>
+   <stop stop-color="#8F8F8F" offset="1"/>
+  </linearGradient>
+  <linearGradient id="XMLID_5_-0" x1="38.969" x2="187.97" y1="155.33" y2="155.33" gradientTransform="matrix(.49588 0 0 .49588 -261.52 -68.358)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#2E2E2E" offset=".0056"/>
+   <stop offset="1"/>
+  </linearGradient>
+  <linearGradient id="XMLID_7_-7" x1="112.14" x2="112.14" y1="22.327" y2="287.56" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#E6E6E6" offset="0"/>
+   <stop stop-color="#8F8F8F" offset="1"/>
+  </linearGradient>
+  <filter id="filter3258" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="180"/>
+   <feColorMatrix result="color2" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 2 0 "/>
+  </filter>
+  <filter id="filter3264" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="180"/>
+   <feColorMatrix result="color2" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 2 0 "/>
+  </filter>
+  <filter id="filter3270" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="180"/>
+   <feColorMatrix result="color2" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 2 0 "/>
+  </filter>
+  <filter id="filter3276" color-interpolation-filters="sRGB">
+   <feColorMatrix result="color1" type="hueRotate" values="180"/>
+   <feColorMatrix result="color2" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 -0.21 -0.72 -0.07 2 0 "/>
+  </filter>
+ </defs>
+ <g transform="translate(261.52 68.358)">
+  <path d="m-261.52 108.38h7.0638v32.15h-7.0638z" fill="#fff" stroke-width=".49588"/>
+  <path d="m-242.08 108.38h6.5372l13.834 19.796v-19.796h6.9528v32.15h-6.0304l-14.34-20.437v20.437h-6.9533z" fill="#fff" stroke-width=".49588"/>
+  <path d="m-170.92 108.38h7.0624v32.15h-7.0624z" fill="#fff" stroke-width=".49588"/>
+  <path d="m-118.76 108.38h7.0634v12.738h10.684v-12.738h7.0644v32.15h-7.0644v-12.904h-10.684v12.904h-7.0634z" fill="#fff" stroke-width=".49588"/>
+  <path d="m-77.234 114.33h-8.6512v-5.9461h24.366v5.9461h-8.6502v26.203h-7.0639v-26.203z" fill="#fff" stroke-width=".49588"/>
+  <path d="m-181.14 110.57c-3.5441-1.6166-7.3356-2.7274-11.529-2.7274-8.4305 0-12.397 4.4833-12.397 9.8557 0 5.8836 4.1595 8.1756 11.529 9.7937 4.6514 1.021 5.7646 2.293 5.7646 4.029 0 2.2017-2.2429 3.4092-5.9506 3.4092-2.2935 0-6.8804-1.2397-9.5458-2.9753l-3.1612 5.7646c3.0477 2.0594 8.5545 3.4514 13.141 3.4514 7.3634 0 12.893-3.62 12.893-9.8358 0-5.4686-3.9051-8.306-12.149-10.29-3.4499-0.8301-5.2688-1.3637-5.2688-3.7811 0-2.1492 1.9617-3.1612 6.0746-3.1612 2.6034 0 5.7646 1.1157 7.5002 1.9835z" fill="#fff" stroke-width=".49588"/>
+  <path d="m-128.27 119.25c0-7.0549-4.8279-11.529-12.583-11.529-8.0477 0-13.451 4.8874-13.451 11.653v10.971c0 5.786 5.2792 10.87 13.513 10.87 6.9979 0 12.459-4.1813 12.459-10.932v-6.3845h-14.124v5.3248h7.4457c0 3.911-1.9275 5.8946-5.656 5.8946-3.8143 0-6.4465-2.3827-6.4465-5.3927v-10.476c0-3.1002 2.3232-5.3927 6.3225-5.3927 3.9809 0 5.78 2.5568 5.78 5.3927z" fill="#fff" stroke-width=".49588"/>
+  <path d="m-242.03 64.538 34.547 9.9365v-131.52l-34.547 10.014zm47.109-125.23v138.78l26.447 7.6073v-154.05z" fill="url(#XMLID_5_-0)" filter="url(#filter3276)" stroke-width=".49588" Googl="true"/>
+  <path d="m-115.09-53.317-53.39-15.042v154.05l34.416-9.6152v-98.983l7.3207 2.1487c3.5098 0.99028 4.9608 3.3224 4.9608 6.2814v87.122l27.85-7.7804v-89.755c0-9.4218-5.124-23.637-21.157-28.431z" fill="url(#XMLID_6_-2)" filter="url(#filter3258)" stroke-width=".49588" Googl="true"/>
+  <polygon transform="matrix(.49588 0 0 .49588 -261.52 -68.358)" points="108.96 288.04 108.96 22.805 115.32 24.507 115.32 286.25" fill="url(#XMLID_7_-7)" filter="url(#filter3270)"/>
+  <path d="m-126.74-20.753-7.3207-2.1487v3.0908l6.4946 1.8432c1.9984 0.66597 2.7273 1.8665 2.7273 3.4712v86.308l3.0596 0.83754v-87.122c0-2.9584-1.4504-5.2906-4.9608-6.2809z" fill="url(#XMLID_8_)" filter="url(#filter3264)" stroke-width=".49588"/>
+ </g>
+</svg>
