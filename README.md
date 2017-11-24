@@ -117,7 +117,7 @@ Example:
 
 ## build-output
 
-This folder will contain the output from the build. Similar to the files [servicelist-enigma2-snp](https://raw.githubusercontent.com/picons/picons-source/master/resources/samples/servicelist-enigma2-snp.txt) and [servicelist-enigma2-srp](https://raw.githubusercontent.com/picons/picons-source/master/resources/samples/servicelist-enigma2-srp.txt). The picon binaries are also saved in this folder.
+This folder will contain the output from the build. Similar to the files [servicelist-enigma2-snp.txt](https://raw.githubusercontent.com/picons/picons-source/master/resources/samples/servicelist-enigma2-snp.txt) and [servicelist-enigma2-srp.txt](https://raw.githubusercontent.com/picons/picons-source/master/resources/samples/servicelist-enigma2-srp.txt). The picon binaries are also saved in this folder.
 
 Possible output files and folders:
 ```
