@@ -11,7 +11,7 @@ chmod 755 $temp/create-symlinks.sh
 ## Create symlinks for SNP & SRP using servicelist ##
 #####################################################
 if [[ $style = "snp" ]] || [[ $style = "srp" ]]; then
-    cat $location/build-output/servicelist-*$style | tr -d [:blank:] | tr -d [=*=] | while read line ; do
+    cat $location/build-output/servicelist-*-$style.txt | tr -d [:blank:] | tr -d [=*=] | while read line ; do
         IFS="|"
         line_data=($line)
         serviceref=${line_data[0]}
@@ -39,7 +39,7 @@ fi
 ## Create symlinks using only snp-index ##
 ##########################################
 if [[ $style = "snp-full" ]]; then
-    sed '1!G;h;$!d' $location/build-source/snp-index | while read line ; do
+    sed '1!G;h;$!d' $location/build-source/snp.index | while read line ; do
         IFS="="
         link_snp=($line)
         logo_snp=${link_snp[1]}
@@ -57,7 +57,7 @@ fi
 ## Create symlinks using only srp-index ##
 ##########################################
 if [[ $style = "srp-full" ]]; then
-    sed '1!G;h;$!d' $location/build-source/srp-index | while read line ; do
+    sed '1!G;h;$!d' $location/build-source/srp.index | while read line ; do
         IFS="="
         link_srp=($line)
         logo_srp=${link_srp[1]}

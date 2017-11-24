@@ -64,13 +64,13 @@ fi
 #####################
 ## Read index file ##
 #####################
-index=$(<"$location/build-source/$style-index")
+index=$(<"$location/build-source/$style.index")
 
 ##################################
 ## Enigma2 servicelist creation ##
 ##################################
 if [[ -d $location/build-input/enigma2 ]]; then
-    file=$location/build-output/servicelist-enigma2-$style
+    file=$location/build-output/servicelist-enigma2-$style.txt
     tempfile=$(mktemp --suffix=.servicelist)
     lamedb=$(<"$location/build-input/enigma2/lamedb")
     channelcount=$(cat "$location/build-input/enigma2/"*bouquet.* | grep -o '#SERVICE .*:0:.*:.*:.*:.*:.*:0:0:0' | sort -u | wc -l)
@@ -109,7 +109,7 @@ fi
 ## TvHeadend servicelist creation (from config files) ##
 ########################################################
 if [[ -d $location/build-input/tvheadend ]]; then
-    file=$location/build-output/servicelist-tvheadend-filemode-$style
+    file=$location/build-output/servicelist-tvheadend-filemode-$style.txt
     tempfile=$(mktemp --suffix=.servicelist)
     channelcount=$(find "$location/build-input/tvheadend/channel/config/" -maxdepth 1 -type f | wc -l)
 
@@ -158,7 +158,7 @@ if [[ -f $location/build-input/tvheadend.serverconf ]]; then
     source $location/build-input/tvheadend.serverconf
 
     # ...set file name for the service list to generate
-    file=$location/build-output/servicelist-tvheadend-servermode-$style
+    file=$location/build-output/servicelist-tvheadend-servermode-$style.txt
     tempfile=$(mktemp --suffix=.servicelist)
 
     # ...the server url
@@ -214,7 +214,7 @@ fi
 ## VDR servicelist creation ##
 ##############################
 if [[ -f $location/build-input/channels.conf ]]; then
-    file=$location/build-output/servicelist-vdr-$style
+    file=$location/build-output/servicelist-vdr-$style.txt
     tempfile=$(mktemp --suffix=.servicelist)
     channelcount=$(grep -o '.*:.*:.*:.*:.*:.*:.*:.*:.*:.*:.*:.*:0' "$location/build-input/channels.conf" | sort -u | wc -l)
 

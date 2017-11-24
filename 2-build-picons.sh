@@ -116,7 +116,7 @@ fi
 ## Check if previously chosen style exists ##
 #############################################
 if [[ ! $style = "srp-full" ]] && [[ ! $style = "snp-full" ]]; then
-    for file in $location/build-output/servicelist-*-$style ; do
+    for file in $location/build-output/servicelist-*-$style.txt ; do
         if [[ ! -f $file ]]; then
             echo "ERROR: No $style servicelist has been found!" >> $logfile
             echo "TERMINATED: Read the log file!"
