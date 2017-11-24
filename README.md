@@ -117,20 +117,20 @@ Example:
 
 ## build-output
 
-This folder will contain the output from the build. Similar to the files [servicelist-enigma2-snp](https://raw.githubusercontent.com/picons/picons-source/master/resources/samples/servicelist-enigma2-snp) and [servicelist-enigma2-srp](https://raw.githubusercontent.com/picons/picons-source/master/resources/samples/servicelist-enigma2-srp). The picon binaries are also saved in this folder.
+This folder will contain the output from the build. Similar to the files [servicelist-enigma2-snp](https://raw.githubusercontent.com/picons/picons-source/master/resources/samples/servicelist-enigma2-snp.txt) and [servicelist-enigma2-srp](https://raw.githubusercontent.com/picons/picons-source/master/resources/samples/servicelist-enigma2-srp.txt). The picon binaries are also saved in this folder.
 
 Possible output files and folders:
 ```
 binaries-snp/
 binaries-srp/
-servicelist-enigma2-snp
-servicelist-enigma2-srp
-servicelist-tvheadend-filemode-snp
-servicelist-tvheadend-filemode-srp
-servicelist-tvheadend-servermode-snp
-servicelist-tvheadend-servermode-srp
-servicelist-vdr-snp
-servicelist-vdr-srp
+servicelist-enigma2-snp.txt
+servicelist-enigma2-srp.txt
+servicelist-tvheadend-filemode-snp.txt
+servicelist-tvheadend-filemode-srp.txt
+servicelist-tvheadend-servermode-snp.txt
+servicelist-tvheadend-servermode-srp.txt
+servicelist-vdr-snp.txt
+servicelist-vdr-srp.txt
 ```
 
 ## build-source

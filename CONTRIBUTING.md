@@ -2,25 +2,21 @@
 
 When submitting an issue, make sure you follow these rules:
 
-- Put entries to `srp-index` or `snp-index` inside fenced code blocks. You can create fenced code blocks by placing a new line with three backticks ` ``` ` before and after the code block. ([READ THIS GUIDE](https://help.github.com/articles/creating-and-highlighting-code-blocks/))
+- Put entries to `srp.index` or `snp.index` inside fenced code blocks. You can create fenced code blocks by placing a new line with three backticks ` ``` ` before and after the code block. ([READ THIS GUIDE](https://help.github.com/articles/creating-and-highlighting-code-blocks/))
 - Logos should be inside an archive, correctly named (see below). Share the link.
-
-If you can't be bothered to read this, we won't bother reading your issue. Also, if a channel is gone, we don't really care if it went bankrupt, changed owner, got rebranded or whatever other valid reason. We only care about what references should be added to srp-index and snp-index.
 
 Do you like copy/paste? We do too, make sure your issue is easily copy/pasted.
 
-At the end of any issue you should place the following text `donkey monkey got issued` in between single backticks, if this text is not at the end of an issue, it means you did not read this and we will mentally mark the issue as not important.
-
 # NAMING
 
-__srp-index:__
+__srp.index:__
 
 Contains partial Enigma2 service references, establishing a link between the actual logos in this repository.
 
 - UPPERCASE
 - Only the part `296_5_85_C00000` is used, the parts `1_0_1_` and `_0_0_0` must be removed.
 
-__snp-index:__
+__snp.index:__
 
 Contains simplified channel names according an OpenVIX implementation, called SNP, establishing a link between the actual logos in this repository.
 
@@ -69,7 +65,7 @@ black=fully black logo, no colors allowed (indexed 1-bit, black/white), looks go
 
 # SAMPLES
 
-### SRP-INDEX
+### SRP.INDEX
 
 New additions can go at the top. No need to cleanup old entries, but if you want to, go right ahead.
 
@@ -91,7 +87,7 @@ New additions can go at the top. No need to cleanup old entries, but if you want
 101_E_85_C00000=skybundesligahd-racratridr
 ```
 
-### SNP-INDEX
+### SNP.INDEX
 
 New additions can go at the top. No need to cleanup old entries, but if you want to, go right ahead.
 
