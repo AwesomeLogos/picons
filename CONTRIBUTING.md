@@ -65,7 +65,7 @@ black=fully black logo, no colors allowed (indexed 1-bit, black/white), looks go
 
 # SAMPLES
 
-### SRP.INDEX
+### srp.index
 
 New additions can go at the top. No need to cleanup old entries, but if you want to, go right ahead.
 
@@ -87,7 +87,7 @@ New additions can go at the top. No need to cleanup old entries, but if you want
 101_E_85_C00000=skybundesligahd-racratridr
 ```
 
-### SNP.INDEX
+### snp.index
 
 New additions can go at the top. No need to cleanup old entries, but if you want to, go right ahead.
 
