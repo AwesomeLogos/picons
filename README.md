@@ -48,10 +48,6 @@ TIP: To automate the building process, you can also use some of the following co
 ./2-build-picons.sh srp-full
 ```
 
-# CONTRIBUTING
-
-So you would like to contribute? Have a look [here](https://github.com/picons/picons-source/blob/master/CONTRIBUTING.md), just so you'll know the rules.
-
 # SNP - SERVICE NAME PICONS
 
 The idea behind SNP is that a simplified name derived from the channel name is used to lookup a channel logo. The idea and code was first implemented by OpenVIX for the Enigma2 tuners. Any developer currently using the serviceref method as a way to lookup a logo and would like to implement this alternative, can find the code used to generate the simplified name at the OpenVIX github [repository](https://github.com/OpenViX/enigma2/blob/master/lib/python/Components/Renderer/Picon.py#L88-L89).
