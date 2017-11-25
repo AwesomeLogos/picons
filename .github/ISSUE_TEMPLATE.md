@@ -6,3 +6,5 @@ When submitting an issue, make sure you follow these rules:
 Do you like copy/paste? We do too, make sure your issue is easily copy/pasted.
 
 Take a look at the [CONTRIBUTING](https://github.com/picons/picons-source/blob/master/.github/CONTRIBUTING.md) page for more info.
+
+Clear this text before submitting your issue.
