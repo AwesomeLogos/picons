@@ -1,10 +1,10 @@
-<svg width="200mm" height="65.711mm" version="1.1" viewBox="0 0 200 65.711" xmlns="http://www.w3.org/2000/svg">
+<svg width="200mm" height="71.113mm" version="1.1" viewBox="0 0 200 71.113" xmlns="http://www.w3.org/2000/svg">
  <defs>
   <clipPath id="a">
    <path d="m322.38 596.93h28.245v9.278h-28.245z"/>
   </clipPath>
  </defs>
- <g transform="translate(296.01 -221.08)">
+ <g transform="matrix(1 0 0 1.0822 296.01 -239.25)">
   <g transform="matrix(.75591 0 0 .75591 -360.23 185.03)">
    <g transform="matrix(9.3674,0,0,-9.3674,-2934.9,5726.3)">
     <path d="m335.31 599.71h2.768v2.766h-2.768z" fill="#ed1f24" Googl="true"/>
