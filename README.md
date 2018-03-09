@@ -89,6 +89,8 @@ TVH_HOST="my.tvheadend.server"
 
 If you're running TvHeadend on the same machine, even an empty file (defaulting to `localhost`) should be sufficient.
 
+*Note*: In order to make the generator work with TvHeadend, you'll need to enable picons first by defining a path to the future picon folder under Configuration -> General -> Base.
+
 ###### VDR servicelist creation
 If you're using VDR together with the Kodi addon xvdr, copy your `channels.conf` file to this folder.
 
