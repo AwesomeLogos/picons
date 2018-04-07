@@ -14,7 +14,7 @@ echo -e "\nLog file located at: $logfile\n"
 commands=( sed grep column cat sort find rm wc iconv awk printf )
 
 if [[ -f $location/build-input/tvheadend.serverconf ]]; then
-    commands=( $commands jq curl )
+    commands+=( jq curl )
 fi
 
 for i in ${commands[@]}; do
